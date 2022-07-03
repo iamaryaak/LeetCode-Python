@@ -5,6 +5,10 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        
+        # Time: O(n)
+        # Space: O(1)
+        
         # first idea is to reverse a linked list (but that would take longer)
         # create dummy variable
         dummy = ListNode(0, head)
