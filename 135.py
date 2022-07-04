@@ -3,7 +3,6 @@
 
 class Solution:
     def candy(self, ratings: List[int]) -> int:
-        # sort the ratings
         # start with +1 for each space 
         candiesPer = [1 for x in ratings]
         
