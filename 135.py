@@ -1,3 +1,6 @@
+# space = O(n)
+# time = O(n)
+
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         # sort the ratings
